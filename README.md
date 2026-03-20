@@ -26,9 +26,15 @@ WebLink : https://movie-recommedation-bzappvkhqisprpbaqnst6bz.streamlit.app/
 
 ## 📂 Project Structure
 Movie_Recommendation_app/ 
+
 ├── app.py                # Main Streamlit app 
+
 ├── requirements.txt      # Python dependencies 
-├── runtime.txt           # Python version (for Streamlit Cloud) 
+
+├── runtime.txt           # Python version (for Streamlit Cloud)
+
 ├── data/                 # Dataset files 
+
 ├── models/               # Saved models 
+
 └── README.md             # Project documentation

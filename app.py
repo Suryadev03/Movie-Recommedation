@@ -14,7 +14,7 @@ user_input = st.text_input("Enter the movie name")
 submit = st.button("Click here")
 
 # Initialize Gemini model
-model = genai.GenerativeModel("gemini-2.5-flash-lite")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 if submit and user_input.strip():
     st.markdown(f"Movie name entered: **{user_input}**")
